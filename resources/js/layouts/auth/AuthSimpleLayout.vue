@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import AppLogoIcon from '@/components/AppLogoIcon.vue';
 import { home } from '@/routes';
 import { Link } from '@inertiajs/vue3';
 
@@ -23,8 +22,10 @@ defineProps<{
                         <div
                             class="mb-1 flex h-9 w-9 items-center justify-center rounded-md"
                         >
-                            <AppLogoIcon
-                                class="size-9 fill-current text-[var(--foreground)] dark:text-white"
+                            <img
+                                src="/images/mislogo.png"
+                                alt="MIS Logo"
+                                class="size-9"
                             />
                         </div>
                         <span class="sr-only">{{ title }}</span>
